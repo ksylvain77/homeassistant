@@ -1,0 +1,2 @@
+2025-06-07 11:44:17.333 WARNING (MainThread) [homeassistant.components.media_player] Error retrieving proxied image from http://192.168.50.106:1400/getaa?s=1&u=x-sonos-http:song%253a651871679.mp4?sid%3D204%26flags%3D8232%26sn%3D15
+2025-06-07 11:44:36.540 WARNING (MainThread) [homeassistant.components.media_player] Error retrieving proxied image from http://192.168.50.149:1400

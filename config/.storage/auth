@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth",
+  "data": {
+    "users": [
+      {
+        "id": "1a5412c5d27642a18bf48b5188825b0f",
+        "group_ids": [
+          "system-read-only"
+        ],
+        "is_owner": false,
+        "is_active": true,
+        "name": "Home Assistant Content",
+        "system_generated": true,
+        "local_only": false
+      },
+      {
+        "id": "0107db0c0b064315b9ae00e485e5310d",
+        "group_ids": [
+          "system-admin"
+        ],
+        "is_owner": false,
+        "is_active": true,
+        "name": "Home Assistant Cast",
+        "system_generated": true,
+        "local_only": false
+      },
+      {
+        "id": "804c02b0758f495583423c37a31352c0",
+        "group_ids": [
+          "system-admin"
+        ],
+        "is_owner": true,
+        "is_active": true,
+        "name": "Kevin",
+        "system_generated": false,
+        "local_only": false
+      }
+    ],
+    "groups": [
+      {
+        "id": "system-admin",
+        "name": "Administrators"
+      },
+      {
+        "id": "system-users",
+        "name": "Users"
+      },
+      {
+        "id": "system-read-only",
+        "name": "Read Only"
+      }
+    ],
+    "credentials": [
+      {
+        "id": "1c70a27771c04ea082cb4c614243fe69",
+        "user_id": "804c02b0758f495583423c37a31352c0",
+        "auth_provider_type": "homeassistant",
+        "auth_provider_id": null,
+        "data": {
+          "username": "ksylvain77@gmail.com"
+        }
+      }
+    ],
+    "refresh_tokens": [
+      {
+        "id": "d7f757437d734b7ab7ea4e742c60be33",
+        "user_id": "1a5412c5d27642a18bf48b5188825b0f",
+        "client_id": null,
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "system",
+        "created_at": "2025-06-07T15:34:03.836725+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "78162250f9b71eab761bd9e44530a5098b2d739705f3507ac31c56a12f4733c7e44d7cea4d9904734755bf295d633ad7faa4b767f688c6cb0e9d717f319428ac",
+        "jwt_key": "d5630df001b54d346f72f794cd1530955d296359402fb8468aee0bcadb1fbace977b454b5168b017350a0606eb5c078a09659b599c57c0a9f02546e8e9cf4d39",
+        "last_used_at": null,
+        "last_used_ip": null,
+        "expire_at": null,
+        "credential_id": null,
+        "version": "2025.5.3"
+      },
+      {
+        "id": "7af19b20f6b84c259decb52e17e0f668",
+        "user_id": "0107db0c0b064315b9ae00e485e5310d",
+        "client_id": null,
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "system",
+        "created_at": "2025-06-07T15:34:20.043625+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "6a8d592b5674c751a4bcbe4815f5a8e9a76d250bc80595a4ae1f224f6d96635521eae28d0788f7cf30d93c8d59a207b2af23d8cfe3069008798d84a61664e024",
+        "jwt_key": "6ba4ecaa1f3a7d1ae29d6b9c7f59bbdca9996d366f357bc941458329db00fb837f947bcff9ce68c69b5962998226d22a24e00502b9b866fdb0573747050c806b",
+        "last_used_at": null,
+        "last_used_ip": null,
+        "expire_at": null,
+        "credential_id": null,
+        "version": "2025.5.3"
+      },
+      {
+        "id": "c1efed3a261e41ec8d33b8c31d7b6ca8",
+        "user_id": "804c02b0758f495583423c37a31352c0",
+        "client_id": "http://192.168.50.92:8123/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2025-06-07T15:44:16.297191+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "b60f220da5c3315bcebebfc61bb8bd281b1f2110cd0350d84e0da89e0ee4dfcc92ad36783c7de3962b28b565818d16eece5ade2e6cb3c6cf9a5c583cdaf17196",
+        "jwt_key": "bdff8d9cc6d89f6ef63116da5e7619b194642716cf2697c2d6a114346a5d72dcf77363cc578decf3cad85f1ca00bc998341e25886fe96c8e94d152a5cd2485f6",
+        "last_used_at": "2025-06-07T15:44:16.297313+00:00",
+        "last_used_ip": "192.168.50.180",
+        "expire_at": 1757087056.297313,
+        "credential_id": "1c70a27771c04ea082cb4c614243fe69",
+        "version": "2025.5.3"
+      }
+    ]
+  }
+}
